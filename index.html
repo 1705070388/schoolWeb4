@@ -1,198 +1,258 @@
+<!DOCTYPE html>
 <html>
-
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-
-    <title>School Website 4</title>
-
-    <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative&display=swap" rel="stylesheet">
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-    <link rel="stylesheet" type="text/css" href="style.css">
+	<title>School Website 3</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="style.css">
 
 </head>
 
 <body>
-    <nav class="navbar-inverse my_nav_bar">
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="#">Orchids The International School</a>
-        </div>
-        <div class="collapse navbar-collapse" id="myNavbar">
-            <ul class="nav navbar-nav">
-                <li><a href="#campuslife">Campus Life</a></li>
-                <li><a href="#achievements">Achievements</a></li>
-                <li><a href="#whatsnew">What's New</a></li>
-                <li><a href="#alumni">Alumni</a></li>
-                <li><a href="#contactus">Contact Us</a></li>
-            </ul>
-        </div>
-    </nav>
 
-    <div class="announcement">
-        <marquee id="marqueeStyle" onmouseover="this.stop();" onmouseout="this.start();">
-            *** Feel free to ask any questions on head@ka110cisce.org ***
-        </marquee>
-    </div>
-
-    <iframe id="video" width="727" height="409" src="https://www.youtube.com/embed/4piSvkqyhcE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-
-    <div class="container">
-        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" id="campuslife">
-            <h1 class="text-capitalize">campus life</h1>
-        </div>
-
-        <div class="row">
-            <div id="imgs">
-                <img src="ground.jpg">
-                <h6>Playground</h6>
-                <h6>Where life happens</h6>
-            </div>
-            <div id="imgs">
-                <img src="infraCompLab.jpg">
-                <h6>Computer Lab</h6>
-                <h6>Where language is digital</h6>
-            </div>
-            <div id="imgs">
-                <img src="infraMusic.jpg">
-                <h6>Music Room</h6>
-                <h6>Where imaginations are tuned</h6>
-            </div>
-            <div id="imgs">
-                <img src="infraSmart.jpg">
-                <h6>Smart Classes</h6>
-                <h6>Where learning is par excellence</h6>
-            </div>
-            <div id="imgs">
-                <img src="roboticLab.jpg">
-                <h6>Robotics Lab</h6>
-                <h6>Where future begins</h6>
-            </div>
-        </div>
-        <div class="row">
-            <div id="imgs">
-                <img src="schoolLibrary.jpg">
-                <h6>Library</h6>
-                <h6>Where wisdom is treasured</h6>
-            </div>
-            <div id="imgs">
-                <img src="scienceLab.jpg">
-                <h6>Science Lab</h6>
-                <h6>Where innovations get ignited</h6>
-            </div>
-            <div id="imgs">
-                <img src="SwimmingPool.jpg">
-                <h6>Swimming Pool</h6>
-                <h6>Where coordination is mastered</h6>
-            </div>
-        </div>
-    </div>
-
-
-    <div class="container">
-        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" id="achievements">
-            <h1 class="text-capitalize">achievements</h1>
-        </div>
-        <div id="mainDivAchievements">
-            <p>&#127942;</p><h6>Awards 2015</h6>
-            <p id="awards2015">
-                Indian Economic Development and Research Association, Indian Leadership Award for Education Excellence, The award ceremony held in New Delhi.
-            </p>
-            <p>&#127942;</p><h6>Awards 2014</h6>
-            <p id="awards2014">
-                Outstanding Contribution towards Society Award to Mr. Ravindra Sapkal, Hon. Chairman
-            </p>
-        </div>
+<nav class="navbar-inverse" style="position:sticky;top:0;z-index:99999">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">Orchids The International School</a>
     </div>
     
-    <div class="container">
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li><a href="#campus_life">Campus Life</a></li>
+        <li><a href="#achievements">Achievements</a></li>
+        <li><a href="#whatsnew">What's New</a></li>
+        <li><a href="#alumni">Alumni</a></li>
+        <li><a href="#contactUs">Contact Us</a></li>
+      </ul>
+    </div>
+</nav>
+
+<div class="announcement">
+  <marquee id="marqueeStyle" onmouseover="this.stop();" onmouseout="this.start();">
+    ***  Feel free to ask queries on head@ka110cisce.org  ***
+    </marquee>
+</div>
+
+<iframe id="video" src="https://www.youtube.com/embed/4piSvkqyhcE"></iframe>
+  
+<div class="container">
+	
+  <div class="page-header" id="campus_life">
+  		<h2 class="text-capitalize">Campus Life</h2>
+
+  <div class="row">
+    <div  class="travel_mainDiv"> 
+      <img class="img-responsive"  src="ground.jpg">
+      <h4 class="text-capitalize"><kbd>playground</kbd></h4>
+      <hr >
+      <h5 class="text-success text-left text-capitalize" >Was established in 1996</h5>
+      <p class="text-muted text-left" >Where life happens</p>
+    </div>
+    <div  class="travel_mainDiv"> 
+      <img class="img-responsive"  src="infraCompLab.jpg">
+      <h4 class="text-capitalize"><kbd>computer lab</kbd></h4>
+      <hr >
+      <h5 class="text-success text-left text-capitalize" >Was build in 1996</h5>
+      <p class="text-muted text-left" >Where language is digital</p>
+    </div>
+    <div  class="travel_mainDiv"> 
+      <img class="img-responsive"  src="infraMusic.jpg">
+      <h4 class="text-capitalize"><kbd>music room</kbd></h4>
+      <hr >
+      <h5 class="text-success text-left text-capitalize" >Was build in 1996</h5>
+      <p class="text-muted text-left" >Where imaginations are tuned</p>
+    </div>
+  </div>
+</div>
+	<div class="page-header" id="achievements">
+  		<h2 class="text-capitalize">school achievements</h2>
+  </div>
+
+<div class="bg-primary movie_head" data-toggle="collapse" data-target="#school_achievement1" >
+    Awards 2015 <i class="fa fa-sort-desc" ></i>
+  </div>
+
+  <div id="school_achievement1" class="collapse">
+
+      <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12" id="achievementsID">
+	  		<img src="https://tse4.mm.bing.net/th?id=OIP.IhqnDzI95h1szPfcv2jEmwHaGL&pid=Api&P=0&w=199&h=167" class="img-responsive img-thumbnail"> 
+	  </div>
+
+	  <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 movie_text" >
+		  <h5 class="text-success text-left text-capitalize">Awards 2015  
+      </h5>
+		  <p>Indian Economic Development and Research Association, Indian Leadership Award for Education Excellence, The award ceremony held in New Delhi.</p>
+	  </div>
+  </div>
+
+  <div class="bg-primary movie_head" data-toggle="collapse" data-target="#school_achievement2" >
+    Awards 2014<i class="fa fa-sort-desc" ></i>
+  </div>
+
+  <div id="school_achievement2" class="collapse">
+	 
+   <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12" id="achievementsID">
+  		<img src="https://tse2.mm.bing.net/th?id=OIP.9Wm_vJDmSgp1VBD_lVRqvwHaHa&pid=Api&P=0&w=300&h=300" class="img-responsive img-thumbnail" >
+  	</div>
+
+  	<div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 movie_text" >
+      <h5 class="text-success text-left text-capitalize">Awards 2014
+      </h5>
+      <p>Outstanding Contribution towards Society Award to Mr. Ravindra Sapkal, Hon. Chairman</p>
+  	</div>
+  </div>
+ <div class="container">
     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" id="whatsnew">
             <h1 class="text-capitalize">what's new</h1>
         </div>
-        <p><span style='font-size:100px;'>&#10102;</span></p>
-        <h6>Online Classes</h6>
-        <p id="awards2015">
-        Due to the Corona Lockdown, Orchids-The International School has introduced online classes from K1-Grade5 through Zoom Meetings.
-        </p>
-        <p><span style='font-size:100px;'>&#10103;</span></p>
-        <h6>Eduvate Parent Portal</h6>
-        <p id="awards2015">
-        The school developed an app from which students will be able to attend online classes and access many other features. They have also created a webstite that does the same- https://erp.letseduvate.com/
-        </p> 
         
-         <p><span style='font-size:100px;'>&#10104;</span></p>
-        <h6>Features of Eduvate Parent Portal</h6>
-        <iframe src="https://erp.letseduvate.com/studentWelcome/" width="100%" height="100%"></iframe>
+         <ul class="list-group">
+
+    <li class="list-group-item list-group-item-success col-lg-12 col-md-12 col-sm-12 col-xs-12 environment_li" >
+      <h6>Online Classes</h6>
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTF6Odtzwo8jI_t1aHckOj2C-XaO3wj2WiLdg&usqp=CAU" class="img-responsive col-lg-5 col-md-5 col-sm-5 col-xs-12" >
+      <p class="list-group-item-text col-lg-7 col-md-7 col-sm-7 col-xs-12" > Due to the Corona Lockdown, Orchids-The International School has introduced online classes from K1-Grade5 through Zoom Meetings.</p>
+     </li>
+
+    <li class="list-group-item list-group-item-warning col-lg-12 col-md-12 col-sm-12 col-xs-12 environment_li"  >
+     <h6>Eduvate Parent Portal</h6>
+     <img src="https://tse3.mm.bing.net/th?id=OIP.UCPk8Spe8PmW6AcaSAHFqQHaHa&pid=Api&P=0&w=300&h=300" class="img-responsive col-lg-5 col-md-5 col-sm-5 col-xs-12" >
+     <p class="list-group-item-text col-lg-7 col-md-7 col-sm-7 col-xs-12" > The school developed an app from which students will be able to attend online classes and access many other features. They have also created a webstite that does the same- https://erp.letseduvate.com/</p>
+    </li>
+</ul>
     </div>
     
-    <div class="container">
-    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" id="alumni">
-        <h1 class="text-capitalize">alumni</h1>
-        </div>
-        <div class="row">
-        <div id="imgs">
-            <img src="https://k12technoservices.com/wp-content/uploads/2019/08/Jai.png">
-            <h6>Mr. Jai Decosta</h6>
-            </div>
-            
-            <div id="imgs">
-            <img src="https://k12technoservices.com/wp-content/uploads/2019/08/MrGanapathyagraharamVenkataramanRavishankar.jpg">
-            <h6>Mr. Ganapathyagraharam Venkataraman Ravishankar</h6>
-            </div>
-            
-            <div id="imgs">
-            <img src="https://k12technoservices.com/wp-content/uploads/2019/08/Ganesh.png">
-            <h6>Mr. Gnanesh D. Gala</h6>
-            </div>
-            
-            <div id="imgs">
-            <img src="https://k12technoservices.com/wp-content/uploads/2019/08/MrMohinderPalBansal.jpg">
-            <h6>Mr. Mohinder Pal Bansal</h6>
-            </div>
-            
-            <div id="imgs">
-            <img src="https://k12technoservices.com/wp-content/uploads/2019/08/MsAnjanaSashidharan.jpg">
-            <h6>Ms. Anjana Shashidharan</h6>
-            </div>
-        </div>
-    </div>
-     
+    <div class="page-header col-lg-12 col-md-12 col-sm-12 col-xs-12" id="alumni">
+      <h2 class="text-capitalize ">Alumini</h2>
+  </div>
 
-    <div class="container">
-        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" id="contactus">
-            <h1 class="text-capitalize">contact us</h1>
-        </div>
 
-        <div id="map">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3886.480724777191!2d77.57871111413613!3d13.068691116278007!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae181766a5ec37%3A0x947652ceef468b1d!2sOrchids%20The%20International%20School%20Vivekananda%20-%20SahakarNagar!5e0!3m2!1sen!2sin!4v1612962364399!5m2!1sen!2sin" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+  <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 book" id="aluminiList" data-toggle="modal" data-target="#school_alumni1">
+    <img src="https://k12technoservices.com/wp-content/uploads/2019/08/Jai.png" class="img-responsive">
+    <hr >
+    <p class="text-primary">Mr. Jai Decosta</p>
+  </div>
+
+  <div class="modal fade" id="school_alumni1">
+    <div class="modal-dialog">
+      <div class="modal-content" >
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Mr. Jai Decosta</h4>
         </div>
-        <div id="details">
-            <img src="principal.jpg" class="img-responsive img-circle col-lg-3 col-md-3 col-sm-3 col-xs-4">
-            <h2>Principal Name:</h2>
-            <h3>Mrs. Vatsala Mohan J</h3>
-            <div class="contact_1">
-                <a href="mailto:head@ka110cisce.org?Subject=Hi">
-                    <h4><i class="fa fa-envelope"></i>&nbsp;&nbsp;head@ka110cisce.org</h4>
-                </a>
-                <a href="mailto:head@ka110cisce.org?Subject=Hi">
-                    <h4><i class="fa fa-instagram"></i>&nbsp;&nbsp;@swamivivekananda_</h4>
-                </a>
-            </div>
+        
+        <div class="modal-body">
+          <img src="https://k12technoservices.com/wp-content/uploads/2019/08/Jai.png" class="img-responsive img_modal">
+          <p class="p_modal">Jai Decosta serves as the Managing Director of K12 Techno Services Pvt. Limited. He is a Chartered Accountant and has also completed his MBA at the IIM, Bangalore. Jai, joined the Company in the year 2010 and has been instrumental in building the company ground up to its current levels. He plays a key role in the P&L Management , investor relations and future growth areas of the Company. He has taken and continues to take several steps to make the Company a pioneer in the field of education and school Management . Jai, has over 17 years of experience and has been the entrepreneur for several companies associated with pre- paid internet cards, sales and outsourcing business etc. Jai has also worked associated with several large organisations such as the Times Group, Tata Group, ITC, Next Education etc.
+           </p>
         </div>
+      </div>
     </div>
+  </div>
+
+
+  <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 book" id="aluminiList" data-toggle="modal" data-target="#school_alumni2">
+    <img src="https://k12technoservices.com/wp-content/uploads/2019/08/MrGanapathyagraharamVenkataramanRavishankar.jpg" class="img-responsive">
+    <hr >
+   <p class="text-primary">Mr. Ganapathyagraharam Venkataraman Ravishankar</p>
+  </div>
+  
+  <div class="modal fade" id="school_alumni2">
+    <div class="modal-dialog">
+      <div class="modal-content"  >
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Mr. Ganapathyagraharam Venkataraman Ravishankar</h4>
+        </div>
+        
+        <div class="modal-body">
+          <img src="https://k12technoservices.com/wp-content/uploads/2019/08/MrGanapathyagraharamVenkataramanRavishankar.jpg" class="img-responsive img_modal">
+          <p class="p_modal">As the Managing Director at Sequoia Capital, Mr. Ravishankar focuses on investing in Consumer, Education and Healthcare opportunities. He also has served as a Director of Kids Clinic India Pvt. Ltd. since 21 January 2015, and Prataap Snacks Pvt. Ltd. since 05 December 2011. He is a Scholar from Indian Institute of Management, Ahmedabad, and also a Computer Science graduate from REC Trichy.
+           </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 book" id="aluminiList" data-toggle="modal" data-target="#school_alumni3">
+    <img src="https://k12technoservices.com/wp-content/uploads/2019/08/Ganesh.png" class="img-responsive">
+    <hr >
+    <p class="text-primary">Mr. Gnanesh D. Gala
+</p>
+  </div>
+  
+  <div class="modal fade" id="school_alumni3">
+    <div class="modal-dialog">
+      <div class="modal-content"  >
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Mr. Gnanesh D. Gala</h4>
+        </div>
+        
+        <div class="modal-body">
+          <img src="https://k12technoservices.com/wp-content/uploads/2019/08/Ganesh.png" class="img-responsive img_modal">
+          <p class="p_modal">Mr. Gala, currently serving as the Managing Director at Navneet Publications (India) Ltd, has been in the position of President (Finance) for more than 25 years and has played an instrumental role in accelerating Navneet Publications’s top-line and bottom-line growth. At this instance, he is attempting to capitalize on the emerging technology in education such as E-learning with a concerted effort to eliminate the traditional line between education and entertainment for children.
+           </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 book" id="aluminiList" data-toggle="modal" data-target="#school_alumni4">
+    <img src="https://k12technoservices.com/wp-content/uploads/2019/08/MrMohinderPalBansal.jpg" class="img-responsive">
+    <hr >
+    <p class="text-primary">Mr. Mohinder Pal Bansal</p>
+  </div>
+  
+  <div class="modal fade" id="school_alumni4">
+    <div class="modal-dialog">
+      <div class="modal-content"  >
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Mr. Mohinder Pal Bansal</h4>
+        </div>
+        
+        <div class="modal-body">
+          <img src="https://k12technoservices.com/wp-content/uploads/2019/08/MrMohinderPalBansal.jpg" class="img-responsive img_modal">
+          <p class="p_modal">He serves as a Managing Partner at BlackSoil Realty Investment Advisors, after having served as a Sole Advisor to Amforge Industries on a complex demerger of assets to Mahindra Group. He also has advised Indian corporates on various capital raising transactions including Allcargo's IPO, Bank of Punjab's IPO and Garware Polyster's rights issue. He has been an Independent Director of Navneet Education Limited since June 1, 2013.<br>
+           </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<div class="page-header col-lg-12 col-md-12 col-sm-12 col-xs-12" id="contactUs">
+  <h2 class="text-capitalize ">Contact Us</h2>
+</div>
+
+<div id="map">
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3886.480724777191!2d77.57871111413613!3d13.068691116278007!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae181766a5ec37%3A0x947652ceef468b1d!2sOrchids%20The%20International%20School%20Vivekananda%20-%20SahakarNagar!5e0!3m2!1sen!2sin!4v1612962364399!5m2!1sen!2sin" height="450" frameborder="0"  allowfullscreen=""></iframe>
+</div>
+  <div id="details">
+    <img id="principalimg" src="principal.jpg">
+    <h3>Principal Name: </h3>
+    <h4>Mrs. Vatsala Mohan J</h4>
+        <div class="contact_1" >
+           <a href="head@ka110cisce.org?Subject=Hi">
+               <h5><i class="fa fa-envelope"></i>&nbsp;&nbsp;head@ka110cisce.org</h5>
+            </a> 
+           <a href="#"> 
+               <h5><i class="fa fa-instagram" ></i>&nbsp;&nbsp;@swamivivekananda_</h5>
+            </a> 
+            <a href="#"> 
+              <h5><i class="fa fa-phone-square" ></i>&nbsp;&nbsp;(+91) 9513731352</h5>
+           </a> 
+        </div>
+      </div>
+  </div>
+  <div id="footer"></div>
+
 </body>
-
 </html>
